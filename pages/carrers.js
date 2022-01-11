@@ -1,7 +1,7 @@
 import { Navbar } from './components/Navbar'
 import Footer from './components/Footer'
 
-export default () => {
+const Careers = () => {
   return (
     <>
 
@@ -110,3 +110,5 @@ export default () => {
     </>
   )
 }
+
+export default Careers;

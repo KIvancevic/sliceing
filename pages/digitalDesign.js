@@ -1,7 +1,7 @@
 import { Navbar } from './components/Navbar.tsx'
 import Footer from './components/Footer'
 
-export default () => {
+const DigitalDesign = () => {
 
   return (
 
@@ -131,3 +131,5 @@ export default () => {
     </div>
   )
 }
+
+export default DigitalDesign;

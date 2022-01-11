@@ -2,7 +2,7 @@ import Footer from "./components/Footer";
 import DiscussProject from './components/DiscussProject';
 import { Navbar } from './components/Navbar'
 
-export default () => {
+const HomePage = () => {
   return (
     <>
       <div
@@ -15,3 +15,5 @@ export default () => {
     </>
   )
 }
+
+export default HomePage;

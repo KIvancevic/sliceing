@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import { useRouter } from 'next/router'
 
 
-export default () => {
+const Contact = () => {
 
   const [buttonContactUs, setButtonContactUs] = useState(true);
 
@@ -159,3 +159,5 @@ export default () => {
     </>
   )
 }
+
+export default Contact;

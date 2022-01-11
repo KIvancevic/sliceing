@@ -3,7 +3,7 @@ import Link from "next/link"
 import Footer from "./components/Footer"
 import DiscussProject from "./components/DiscussProject"
 
-export default () => { 
+const Services = () => { 
   return (
     <>
       <div className='servicesContainer'>
@@ -310,3 +310,5 @@ export default () => {
     </>
   )
 }
+
+export default Services;

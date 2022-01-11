@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import asyncLabsWhiteLogo from '../../public/asyncLabsWhiteLogo.png'
+import Link from 'next/link'
 
 
 const Footer = () => {
@@ -16,28 +17,28 @@ const Footer = () => {
               color: 'white'
             }}
           >
-            <a href="/">
+            <Link href="/">
               <Image
                 src={asyncLabsWhiteLogo}
                 alt="asyncLabsWhiteLogo"
               />
-            </a>
+            </Link>
           </div>
           <div
             className='footerMidDiv'
           >
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Blogs</a>
-            <a href="#">Contact</a>
+            <Link href="#">About</Link>
+            <Link href="#">Projects</Link>
+            <Link href="#">Blogs</Link>
+            <Link href="#">Contact</Link>
           </div>
           <div
             className='footerMidDiv'
           >
-            <a href="#">Facebook</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+            <Link href="#">Facebook</Link>
+            <Link href="#">LinkedIn</Link>
+            <Link href="#">Twitter</Link>
+            <Link href="#">Instagram</Link>
           </div>
           <div
             className='footerMidDiv'

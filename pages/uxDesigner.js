@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import Link from 'next/link';
 import ContactUs from './components/ContantUs';
 
-export default () => {
+const UxDesigner = () => {
 
   return (
 
@@ -231,3 +231,5 @@ export default () => {
     </div>
   )
 }
+
+export default UxDesigner;
