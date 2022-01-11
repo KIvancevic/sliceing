@@ -240,7 +240,7 @@ const Services = () => {
                 </ul>
                 
                 <Link 
-                    href="/digitalDesign"
+                    href="/DigitalDesign"
                   >
                   <button
                     style={{
