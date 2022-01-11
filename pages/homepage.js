@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import DiscussProject from './components/DiscussProject';
-import { Navbar } from './components/Navbar'
+import  Navbar  from './components/Navbar'
 
 const HomePage = () => {
   return (

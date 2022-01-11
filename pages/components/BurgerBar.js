@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 
-export const BurgerBar = () => {
+const BurgerBar = () => {
 
 
   const router = useRouter()
@@ -57,3 +57,5 @@ export const BurgerBar = () => {
     </>
   )
 }
+
+export default BurgerBar;

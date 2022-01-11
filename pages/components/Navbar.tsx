@@ -3,14 +3,14 @@ import Image from 'next/image';
 import useScrollListener from './ScrollListener';
 import asynclogoblacksvg from '../../public/asynclogoblacksvg.svg';
 import asynclogosvgwhite from '../../public/asynclogosvgwhite.svg';
-import{ BurgerBar }from './BurgerBar';
+import BurgerBar from './BurgerBar';
 import Link from 'next/link';
 
 interface Props {
   white?: boolean;
 }
 
-export const Navbar: React.FC<Props> = ({
+const Navbar: React.FC<Props> = ({
   white
 }) => {
 
@@ -46,3 +46,5 @@ export const Navbar: React.FC<Props> = ({
     </div>
   )
 }
+
+export default Navbar;

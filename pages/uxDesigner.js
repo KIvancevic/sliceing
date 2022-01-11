@@ -1,4 +1,4 @@
-import { Navbar } from './components/Navbar.tsx';
+import  Navbar  from './components/Navbar.tsx';
 import Footer from './components/Footer';
 import Link from 'next/link';
 import ContactUs from './components/ContantUs';

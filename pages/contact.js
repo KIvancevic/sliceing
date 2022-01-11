@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar } from "./components/Navbar.tsx"
+import  Navbar  from "./components/Navbar.tsx"
 import ContactUs from './components/ContantUs';
 import Footer from './components/Footer'
 import { useRouter } from 'next/router'
