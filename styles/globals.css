@@ -1512,7 +1512,7 @@ a {
 }
 
 .availablePositions > a:nth-child(1),
-.availablePositions > a:nth-child(2),
+.availablePositions > div,
 .availablePositions > a:nth-child(3) {
   text-decoration: none;
   background: 0 0;
@@ -1526,7 +1526,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.availablePositions > a:last-child {
+.availablePositions > a:last-child,
+.availablePositions > div:last-child {
   border-bottom: 1px solid #d6d6d6;
   text-decoration: none;
   background: 0 0;
@@ -1539,7 +1540,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.availablePositions > a > div:nth-child(1) {
+.availablePositions > a > div:nth-child(1),
+.availablePositions > div > div:nth-child(1) {
   font-size: 18px;
   font-weight: 400px;
   line-height: 1.5;
@@ -1548,7 +1550,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.availablePositions > a > div:nth-child(2) {
+.availablePositions > a > div:nth-child(2),
+.availablePositions > div > div:nth-child(2) {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.5;
@@ -1557,7 +1560,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.availablePositions > a > div:nth-child(3) {
+.availablePositions > a > div:nth-child(3),
+.availablePositions > div > div:nth-child(3) {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.44;
@@ -1567,13 +1571,16 @@ a {
   display: flex;
 }
 
-.availablePositions > a:hover {
+.availablePositions > a:hover,
+.availablePositions > div:hover {
   background: #1d1d1d;
   transition: all 0.3s ease-in-out;
 }
 
 .availablePositions > a:hover > div:nth-child(2),
-.availablePositions > a:hover > div:nth-child(3) {
+.availablePositions > div:hover > div:nth-child(2),
+.availablePositions > a:hover > div:nth-child(3),
+.availablePositions > div:hover > div:nth-child(3) {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
@@ -1611,10 +1618,10 @@ a {
   }
   .availablePositions > a > div:first-child,
   .availablePositions > a > div:nth-child(2),
-  .availablePositions > a > div:nth-child(3) {
-    width: 33%;
-  }
-  .availablePositions > a > div:nth-child(3) {
+  .availablePositions > a > div:nth-child(3),
+  .availablePositions >  div > div:first-child,
+  .availablePositions >  div > div:nth-child(2),
+  .availablePositions >  div > div:nth-child(3){
     width: 33%;
   }
 
@@ -1643,12 +1650,14 @@ a {
       flex-wrap: wrap;
       padding: 24px 0;
     }
-    .availablePositions > a > div:nth-child(2) {
+    .availablePositions > a > div:nth-child(2),
+    .availablePositions > link > div:nth-child(2) {
       order: 2;
       width: 100%;
       margin-top: 12px;
     }
-    .availablePositions > a > div:nth-child(3) {
+    .availablePositions > a > div:nth-child(3),
+    .availablePositions > link > div:nth-child(3) {
       color: #b3b3b3;
     }
   }

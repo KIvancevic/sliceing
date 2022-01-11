@@ -88,11 +88,11 @@ const Careers = () => {
             <div> Full-Time <div className='arrowWhite marginLeft'/></div>
           </a>
           <Link href="/uxDesigner" passHref>
-            <>
+            <div>
               <div> Creative </div>
               <div> UX Designer </div>
               <div> Full-Time <div className='arrowWhite marginLeft'/></div>
-            </>
+            </div>
           </Link>
           <a>
             <div> Technology </div>
