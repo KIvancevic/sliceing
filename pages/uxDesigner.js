@@ -97,7 +97,7 @@ const UxDesigner = () => {
         <div>
             <div
             >
-              <Link href="/">
+              <Link href="/" passHref>
                 <button
                   style={{
                     fontFamily: 'Swansea',
@@ -119,7 +119,7 @@ const UxDesigner = () => {
                   </div>
                 </button>
               </Link>
-              <Link href="/">
+              <Link href="/" passHref>
                 <button
                   style={{
                     fontFamily: 'Swansea',

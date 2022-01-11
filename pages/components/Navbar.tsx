@@ -36,7 +36,7 @@ export const Navbar: React.FC<Props> = ({
         zIndex: '1'
       }}
     >
-      <Link href="/">
+      <Link href="/" passHref>
         <Image
           src={white ? asynclogosvgwhite : asynclogoblacksvg}
           alt="asynclogoblacksvg"

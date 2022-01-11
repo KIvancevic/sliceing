@@ -23,33 +23,27 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/contact" className={styles.card}>
-            <h2>Contact Form &rarr;</h2>
-            <p>Contact us here!</p>
-          </a>
+          <Link href="/contact" className={styles.card}>
+            <button>Contact Form &rarr;</button>
+          </Link>
 
-          <a href="/services" className={styles.card}>
-            <h2>Services &rarr;</h2>
-            <p>Find out our services!</p>
-          </a>
+          <Link href="/services" className={styles.card}>
+            <button>Services &rarr;</button>
+          </Link>
 
-          <a
+          <Link
             href="/carrers"
             className={styles.card}
           >
-            <h2>Carrers &rarr;</h2>
-            <p>Explore carrers</p>
-          </a>
+            <button>Carrers &rarr;</button>
+          </Link>
 
-          <a
+          <Link
             href="/homepage"
             className={styles.card}
           >
-            <h2>Homepage &rarr;</h2>
-            <p>
-              This is our homepage.
-            </p>
-          </a>
+            <button>Homepage &rarr;</button>
+          </Link>
         </div>
       </main>
 

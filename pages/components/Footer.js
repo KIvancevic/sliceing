@@ -17,7 +17,7 @@ const Footer = () => {
               color: 'white'
             }}
           >
-            <Link href="/">
+            <Link href="/" passHref>
               <Image
                 src={asyncLabsWhiteLogo}
                 alt="asyncLabsWhiteLogo"
