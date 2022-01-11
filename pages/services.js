@@ -242,7 +242,7 @@ const Services = () => {
                 </ul>
                 
                 <Link 
-                    href="/DigitalDesign"
+                    href="/digitalDesign"
                     passHref
                   >
                   <button
