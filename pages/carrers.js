@@ -1,5 +1,6 @@
 import { Navbar } from './components/Navbar'
 import Footer from './components/Footer'
+import Link from 'next/link'
 
 const Careers = () => {
   return (
@@ -86,11 +87,11 @@ const Careers = () => {
             <div> Back-End Developer </div>
             <div> Full-Time <div className='arrowWhite marginLeft'/></div>
           </a>
-          <a href="/uxDesigner">
+          <Link href="/uxDesigner" passHref>
             <div> Creative </div>
             <div> UX Designer </div>
             <div> Full-Time <div className='arrowWhite marginLeft'/></div>
-          </a>
+          </Link>
           <a>
             <div> Technology </div>
             <div> Software Developer </div>

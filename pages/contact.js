@@ -35,7 +35,6 @@ const Contact = () => {
               rel="preload"
               href="/fonts/Swansea-Bold.woff"
               as="font"
-              crossOrigin=""
               className='letstalkspan'
               style={{
                 fontSize: '70px',

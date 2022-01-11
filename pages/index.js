@@ -23,17 +23,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/contact" className={styles.card}>
+          <Link href="/contact" className={styles.card} passHref>
             <button>Contact Form &rarr;</button>
           </Link>
 
-          <Link href="/services" className={styles.card}>
+          <Link href="/services" className={styles.card} passHref>
             <button>Services &rarr;</button>
           </Link>
 
           <Link
             href="/carrers"
             className={styles.card}
+            passHref
           >
             <button>Carrers &rarr;</button>
           </Link>
@@ -41,6 +42,7 @@ export default function Home() {
           <Link
             href="/homepage"
             className={styles.card}
+            passHref
           >
             <button>Homepage &rarr;</button>
           </Link>
