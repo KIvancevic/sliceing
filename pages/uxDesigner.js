@@ -98,40 +98,44 @@ const UxDesigner = () => {
             <div
             >
               <Link href="/" passHref>
-                <button
-                  style={{
-                    fontFamily: 'Swansea',
-                    fontSize: '12px',
-                    fontWeight: 'bold',
-                    letterSpacing: '1.8px',
-                    textTransform: 'uppercase',
-                    color: "#fff",
-                  }}
-                >
-                  <div
+                <>
+                  <button
                     style={{
-                      height: '14px',
-                      borderRight: '1px solid #fff',
-                      marginTop: '5px',
-                    }}                
+                      fontFamily: 'Swansea',
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      letterSpacing: '1.8px',
+                      textTransform: 'uppercase',
+                      color: "#fff",
+                    }}
                   >
-                    Prev
-                  </div>
-                </button>
+                    <div
+                      style={{
+                        height: '14px',
+                        borderRight: '1px solid #fff',
+                        marginTop: '5px',
+                      }}                
+                    >
+                      Prev
+                    </div>
+                  </button>
+                </>
               </Link>
               <Link href="/" passHref>
-                <button
-                  style={{
-                    fontFamily: 'Swansea',
-                    fontSize: '12px',
-                    fontWeight: 'bold',
-                    letterSpacing: '1.8px',
-                    textTransform: 'uppercase',
-                    color: "#fff",
-                  }}
-                >
-                  Next
-                </button>
+                <>
+                  <button
+                    style={{
+                      fontFamily: 'Swansea',
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      letterSpacing: '1.8px',
+                      textTransform: 'uppercase',
+                      color: "#fff",
+                    }}
+                  >
+                    Next
+                  </button>
+                </>
               </Link>
             </div>
         </div>
