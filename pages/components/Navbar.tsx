@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Image from 'next/image';
-import useScrollListener from './ScrollListener';
+import useScrollListener from '../../components/ScrollListener';
 import asynclogoblacksvg from '../../public/asynclogoblacksvg.svg';
 import asynclogosvgwhite from '../../public/asynclogosvgwhite.svg';
 import BurgerBar from './BurgerBar';
